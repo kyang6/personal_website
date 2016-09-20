@@ -1,0 +1,143 @@
+@font-face {
+  font-family: "Segoe";
+  src: local("Segoe UI")
+}
+@font-face {
+    font-family: "Segoe";
+    src: local("Segoe UI");
+    font-weight: semibold;
+}
+body{
+    margin: 0px;
+    position: relative;
+}
+
+
+#spritz_holder{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    position: fixed;
+    width: 100%;
+}
+
+#spritz_spacer{
+    width: 100%;
+    min-height: 210px;
+}
+
+#spritz_container{
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 43px;
+}
+
+#spritz_result{
+    text-align: center;
+    font-family: 'Segoe', sans-serif;
+    font-weight:600;
+    /* 600px+; small tablet portrait */
+    padding-top: 9px;
+    padding-bottom: 9px;
+    min-height: 40px;
+    font-size: 32px;
+}
+#spritz_result.hero{
+    color: #fdfcdb;
+}
+#spritz_result.body{
+    color: #58584c;
+}
+
+.pivot, .spritz_pivot.hero{
+    color: #dbfdfc;
+}
+.pivot, .spritz_pivot.body{
+    color: #899f9e;
+}
+
+#guide_top, #guide_bottom{
+    text-align: center;
+    font-family: 'Segoe', sans-serif;
+    color: #dddddd;
+    /* 600px+; small tablet portrait */
+    font-size: 32px;
+}
+
+#notch{
+    text-align: center;
+    font-family: 'Segoe', sans-serif;
+    color: #dddddd;    
+    /* 600px+; small tablet portrait */
+    margin-top: 9px;
+    padding-top: 12px;
+    font-size: 32px;
+}
+
+
+#spritz_selector, #spritz_toggle{
+    float: left;
+    width: auto;
+}
+
+.invisible{
+    font-family: 'Segoe', sans-serif;
+    visibility: hidden;
+    position: static;
+}
+
+.start, .pivot, .end, .spritz_start, .spritz_pivot, .spritz_end{
+    text-align: center;
+    font-family: 'Segoe', sans-serif;
+    /* 600px+; small tablet portrait */
+    font-size: 32px;
+}
+
+
+@media (max-width: 599px) {
+
+    #spritz_holder{
+        width: 320
+        padding-top: 4px;
+        padding-bottom: 6px;
+        margin-bottom: 6px;
+        min-height: 70px;
+    }
+
+    #spritz_spacer{
+        min-height: 105px;
+    }
+
+    #spritz_container{
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 22px;
+    }
+
+    #spritz_result{
+/*        color: #fdfcdb;
+
+        color: #58584c;*/
+        min-height: 22px;
+        font-size: 22px;
+        padding-top: 11px;
+        padding-bottom: 6px;
+    }
+
+    #guide_top, #guide_bottom{
+        font-size: 22px;
+    }
+
+    #notch{
+        margin-top: 6px;
+        padding-top: 8px;
+        font-size: 22px;
+    }
+
+    .start, .pivot, .end, .spritz_start, .spritz_pivot, .spritz_end{
+        font-size: 22px;
+    }
+
+}

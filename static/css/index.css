@@ -1,0 +1,49 @@
+#hero{
+	background-color: #847379;
+	background: -webkit-radial-gradient(60% 40%, #847379, #42393c); /* Safari */
+	background: -o-radial-gradient(60% 40%, #847379, #42393c); /* Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(60% 40%, #847379, #42393c); /* Firefox 3.6 to 15 */
+	background: radial-gradient(60% 40%, #847379, #42393c); /* Standard syntax */
+    /*background: linear-gradient( 0deg, #847379, #b5abae);*/
+    /*background-color: #847379;*/
+    /* Full height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.invisible_display {
+	display: none;
+}
+
+a{
+	text-decoration: none;
+	color:inherit;
+}
+
+#cityscape {
+	position: absolute;
+	top: 95vh;
+	width: 100%;
+	height: 5vh;
+}
+
+.building {
+	position:relative;
+	overflow: hidden;
+	float:left;
+	width:20px;
+	background: black;
+}
+.building.tall {
+	height:5vh;
+}
+.building.short {
+	top:2vh;
+	height: 3vh
+}
+

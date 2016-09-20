@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"></meta>
+    <head>
+        <title>OpenSpritz</title>
+        <link href="{{url_for('static', filename='css/index.css')}}" rel='stylesheet' type='text/css'>   
+        <link href="{{url_for('static', filename='css/spritz.css')}}" rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+         
+    <div id="hero">
+        <div id="cityscape">
+            <div class="building tall"></div>
+            <div class="building short"></div>
+            <div class="buildings tall"></div>
+        </div>
+    </div>
+    <select id="spritz_selector" class="invisible_display">
+        <option value="200">200wpm</option>
+        <option value="300">300wpm</option>
+        <option value="350">350wpm</option>
+        <option value="400">400wpm</option>
+        <option value="450">450wpm</option>
+        <option value="500">500wpm</option>
+        <option value="550">550wpm</option>
+        <option value="600">600wpm</option>
+        <option value="650">650wpm</option>
+        <option value="700" selected>700wpm</option>
+        <option value="750">750wpm</option>
+        <option value="800">800wpm</option>
+        <option value="850">850wpm</option>
+        <option value="900">900wpm</option>
+        <option value="950">950wpm</option>
+    </select>
+
+    <button type="button" id="spritz_toggle" class=invisible_display>Play</button>
+
+
+    <div id="spritz_holder">
+        <div id="spritz_container">
+            <div id="spritz_result" class="hero">
+                <a href="http://google.con">
+                    Kevin  <span class='spritz_pivot hero'>Yang</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+        <p>fhelo</p>
+    <p>fasdf</p>
+    <p>fsdfaf</p>
+
+
+    <script type="text/javascript" src="{{url_for('static', filename='js/start.js')}}"></script>
+    </body>
+</html>
